@@ -1,20 +1,82 @@
-  
-header{
+#header{
 background: grey;
 position: fixed;
+width: 100%;
 }
 
 
-
 h1{
-font-size: 30px;
 padding-top: 20px;
+font-family: 'merienda One', cursive;
+font-size: 30px;
+color: black;
+text-shadow: 0 1px 0 white;
 }
 
 
 ul
 {
-	padding-top: 50px;
+	padding-top: 20px;
+	float: right;
+}
+
+
+#icons{
+	width: 10%;
+	font-size: 1.5em;
+}
+
+
+#search{
+	width: 60%
+}
+
+
+#slogan{
+	font-family: 'merienda One', cursive;
+	font-size: 30px;
+	color: white;
+	text-shadow: 0 1px 0 red;
+	text-align: center;
+}
+
+
+#welcome{
+	color: white;
+	font-size: 35px;
+	text-align: left;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+
+#item1{
+    background: #a3a375;
+    color: black;
+}
+
+
+#item2{
+     background: wheat;
+     color: black;
+}
+
+
+#items{
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 45px;
+	color: white;
+}
+
+
+#para2{
+	font-family: 'Slabo 27px', serif;
+	margin: auto; 
+	text-align: center;
+}
+
+
+#para3{
+	font-size: 30px;
 }
 
 
@@ -23,20 +85,18 @@ display: inline;
 text-decoration: none;
 font-family: sans-serif;
 font-size: 20px;
+text-align: right;
 }
 
 
-article{
-background: pink;
-color: red;
+#list{
+	float: right;
 }
 
 
-article p{
-margin: auto; 
-text-align: center;
-font-size: 12px;
-padding-top: 20px;
+#para1{
+    margin-top: 20px;
+	text-align: center;
 }
 
 
@@ -46,34 +106,41 @@ float: left;
 
 
 body{
-	background-color: magenta;
-	color: white;
-	
 
+	background-color: grey;
+	color: white;
+	background-image: url('../img/back.jpg');
+}
+
+
+#sites{
+	font-size: 4.5em;
+}
+
+
+#article{
+	padding-top: 7%;
 }
 
 
 #img1{
-width: 420px;
-height: 225px;
+	width: 320px;
+	height: 320px;
 }
 
-
-footer img{
-width: 120px;
-height: 120px
-}
-
-@media screen and (max-width:959px){
-	.container_12{
-		width :100%;
-	}
-}
 
 ul a{
-
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-decoration: none;
-	
 }
 
+
+ul a:hover{
+	color: magenta;
+}
+
+
+#footer{
+	background: grey;
+	width: 100%
+}

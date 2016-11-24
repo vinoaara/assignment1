@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 <link rel="stylesheet"  href="css/reset.css">
 <link rel="stylesheet"  href="css/960_12_col.css">
 <link rel="stylesheet"  href="css/text.css">
@@ -14,12 +14,12 @@
 
 
 </head>
-<body style="background-image:url('img/back.jpg');" >
 
-<header class="wrap container_12" style="width:100%">
-	<h1 class="grid_4" style="font-family: 'merienda One', cursive;font-size: 30px;color:black;text-shadow: 0 1px 0 white">Happy shopping</h1>
-	<nav >
-		<ul class="push_5">
+
+<header class="wrap container_12" id="header">
+	<h1 class="grid_9">Happy shopping</h1>
+	<nav  >
+		<ul class="grid_10" >
 
 		<li><a href="#">Home</a></li>
 		<li><a href="#">Books</a></li>
@@ -27,51 +27,62 @@
 		<li><a href="#">Dress</a></li>
 		<li><a href="#">Gallery</a></li>
 		<li><a href="#">Join us</a></li>
-		<li><a href="#">Contact us</a></li>
-		<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+		<li><a href="#">Contact</a></li>
+		<li><input id="search" text="search"/> <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+		<li id="list"><a href="#"><i id="icons" class="fa fa-user" aria-hidden="true"></i></a></li>
 
-		<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-		<li><a href="#"><i <i class="fa fa-search" aria-hidden="true"></i></a></li>
+		<li id="list"><a href="#"><i id="icons" class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+		
 		
 
 		</ul>
 </nav>
 </header>
 
-<article class="container_12"> 
-<p class="grid_12" style="color:magenta;font-size: 25px;text-align:left;">welcome to shopping!!!!!</p>
+<article class="container_12" id="article"> 
+<p class="grid_12" id="welcome">welcome to shopping!!!!!</p>
 <img class="grid_12" src="img/shopping.jpg" alt="no image found"/>
-<p class="grid_12" style="font-family: 'merienda One', cursive;font-size: 30px;color:black;text-shadow: 0 1px 0 red">"Explore your Experience!!!!"</p>
+<p class="grid_12" id="slogan">"Explore your Experience!!!!"</p>
 </article>
 <div class="container_12">
-<h1 class="grid_12" style="font-family: 'Ravi Prakash', cursive;font-size: 45px">List of Items</h1>
-<article class="grid_6" style="background: wheat;color: black" >
+<h1 class="grid_12" id="items">List of Items</h1>
+<article class="grid_5" id="item1" >
 <img class="grid_4" id="img1" src ="img/dress.jpg" alt="No image found"/>
 <h1>Dresses</h1>
-<p id="para" style="font-family: 'Slabo 27px', serif;" ><b>Tops	Blouse Cardigan Crop top Dress shirt Guayabera Guernsey Halterneck Henley shirt Hoodie Jersey Polo shirt Shirt Sleeveless shirt Sweater Sweater vest T-shirt Tube top Turtleneck Twinset
+<p id="para2"><b>Tops	Blouse Cardigan Crop top Dress shirt Guayabera Guernsey Halterneck Henley shirt Hoodie Jersey Polo shirt Shirt Sleeveless shirt Sweater Sweater vest T-shirt Tube top Turtleneck Twinset
 Trousers	
 Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants High water pants Lowrise pants Jeans Jodhpurs Leggings Overall Palazzo pants Parachute pants Pedal pushers Phat pants Shorts Slim-fit pants Sweatpants Windpants Yoga pants
 Skirts	
 Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants High water pants Lowrise pants Jeans Jodhpurs Leggings Overall Palazzo pants Parachute pants Pedal pushers Phat pants Shorts Slim-fit pants Sweatpants Windpants Yoga pants
 Skirts
 Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants High water pants Lowrise pants Jeans Jodhpurs Leggings Overall Palazzo pants Parachute pants 
-Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants Bell-bottoms Bermuda shorts Bondage pants</b>
+Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling shorts Dress pants Bell-bottoms Bermuda shorts Bondage pants Footwear	
+Athletic shoe Boot Court shoe Dress shoe Flip-flops Hosiery Sandal Shoe Spats Slipper Sock Stocking
+Headwear	
+Baseball cap Beret Cap Fedora Hat Helmet Hood Knit cap Toque Turban Veil
+Nightwear	
+Babydoll Blanket sleeper Negligee Nightgown Nightshirt Pajamas Nightwear	
+Babydoll Blanket sleeper Negligee Nightgown Nightshirt Pajamas Nightwear	
+</b>
 </p>
 </article>
 
-<article class="grid_6" style="background:#666633;color: black">
+<article class="grid_5" id="item2">
 <img class="grid_4" id="img1" src ="img/watch.jpg" alt="No image found"/>
 <h1>watch</h1>
-<p id="para" style="font-family: 'Slabo 27px', serif;"><b>Tell it your way.<br>
+<p id="para2"><b>Tell it your way.<br>
      Where substance meets style.<br>
-     Accuracy to seconds a month.</b></p>
-     <div class="grid_4">
-     <h5>Brand</h5>
-     <p class="grid_4" style="font-family: 'Slabo 27px', serif;"><b>Fossil | Citizen | Diesel | Seiko Bulova | Casio | Guess Kenneth Cole See other Fashion</b></p>
+     Accuracy to seconds a month.</b><br><em><b>For Men's | Women's | Children's</b></em></p>
+      
+     <div class="grid_4" id="item11">
+     
+     <img class="grid_4" id="img1" src ="img/brands.jpg" alt="No image found"/>
+     <p  id="para2" class="grid_4"><b>Fossil | Citizen | Diesel | Seiko Bulova | Casio | Guess Kenneth Cole See other Fashion</b></p>
      </div>
-       <div class="grid_4">
-     <h5>Gender</h5>
-     <p class="grid_4" style="font-family: 'Slabo 27px', serif;"><b>Men's | Women's Unisex | Children's</b></p>
+       <div class="grid_4" id="item12">
+    
+     <img class="grid_4" id="img1" src ="img/offer.jpg" alt="No image found"/>
+      <p  id="para3" class="grid_4"><em>10% discount on all credit and debit cards</em></p>
      </div>
 
 </article>
@@ -79,15 +90,15 @@ Bell-bottoms Bermuda shorts Bondage pants Capri pants Cargo pants Chaps Cycling 
 </div>
 
 
-</body>
-<footer class="container_12" style="background: grey;width:100%">
+
+<footer class="container_12" id="footer">
 <div >
 
-<p align="center">Connect with Us @
-
-<img src="img/fb.jpg"  alt="no image">
-<img src="img/ins.jpg"  alt="no image"/> 
-<img src="img/twit.jpg"  alt="no image"/>
+<p id="para1">Connect with Us @
+ <i id="sites" class="fa fa-facebook-square" aria-hidden="true"></i>
+ <i id="sites" class="fa fa-twitter" aria-hidden="true"></i>
+ <i id="sites" class="fa fa-instagram" aria-hidden="true"></i>
+  
 </p>
 </div>
 </footer>
